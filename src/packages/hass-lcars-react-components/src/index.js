@@ -1,1 +1,1 @@
-export * from './Cards';
+export { SwitchButton } from './SwitchButton';

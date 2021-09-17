@@ -2,6 +2,8 @@
 
 Based on [william57m/homeassistant-dashboard](https://github.com/william57m/homeassistant-dashboard).
 
+Uses the [LCARS CSS framework](https://github.com/joernweissenborn/lcars).
+
 ## Getting started
 
 Install
