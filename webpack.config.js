@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const package = require('./package.json');
 
 const isProd = process.env.NODE_ENV === 'production';
-const publicPath = isProd ? package.panelServingUrl : 'http://0.0.0.0:8080/';
+const publicPath = isProd ? package.panelServingUrl : 'http://0.0.0.0:9900/';
 const buildPath = path.resolve(__dirname, 'dist');
 
 module.exports = {
@@ -52,7 +52,7 @@ module.exports = {
   devServer: {
     contentBase: buildPath,
     host: '0.0.0.0',
-    port: 8080,
+    port: 9900,
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",

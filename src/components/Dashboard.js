@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { ThemeProvider } from '@emotion/react'
 import { Controls } from './Controls';
-import { Panel } from './Panel';
-import { theme } from '../styles/theme';
 
 class Dashboard extends Component {
   render() {
@@ -19,13 +16,9 @@ class Dashboard extends Component {
     } = this.props;
 
     return (
-      <ThemeProvider theme={theme}>
-        <div className="App">
-          <Panel hass={hass} />
-          <Controls hass={hass} />
-        </div>
-        {/* <div className="App-bg" /> */}
-      </ThemeProvider>
+      <div className="App">
+        <Controls hass={hass} />
+      </div>
     );
   }
 }

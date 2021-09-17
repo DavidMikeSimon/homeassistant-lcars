@@ -1,1 +1,0 @@
-export { AlarmCard } from './AlarmCard';

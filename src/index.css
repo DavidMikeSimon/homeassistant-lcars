@@ -7,21 +7,10 @@ html, body, .App {
 }
 
 .App { 
-  background: url('./resources/background1.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   display: flex;
 }
 
 .App-bg {
-  background: url('./resources/background1.png') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
   filter: blur(20px);
   -webkit-filter: blur(20px);
 
